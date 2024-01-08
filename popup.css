@@ -27,9 +27,18 @@ body{
     justify-content: center;
     align-items: center;
     border: 3px solid black;
+    width: 300px;
 
 }
 
+#next{
+  height: 37px;
+}
+
+#playbar{
+  display: inline-flex;
+  width: 200px;
+}
 
 #track {
     flex: 1;
