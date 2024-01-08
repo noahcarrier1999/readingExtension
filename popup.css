@@ -1,0 +1,56 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: auto;
+    border: 3px solid black;
+}
+
+#words{
+    color:red;
+}
+
+#flexbox_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+
+}
+
+
+#track {
+    flex: 1;
+  }
+
+
+.track {
+  height: 0.5rem;
+  background: rgba(0,0,0,0.5);
+  border-radius: 0.25rem;
+  margin: 1.25rem;
+}
+
+.knob {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: rgb(39, 39, 39);
+    transform: translate(-25%, -25%);
+    &:hover {
+      cursor: pointer;
+    }
+}
